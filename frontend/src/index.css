@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@300;400;500;600;700&family=Orbitron:wght@400;700;900&family=Nunito:wght@300;400;600;700;800&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --accent: #00e5ff;
+  --neural: #ff3366;
+  --green: #00ff88;
+  --red: #ff2244;
+  --yellow: #ffd600;
+}
+
+body { font-family: 'Rajdhani', sans-serif; }
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #0e3a50; border-radius: 3px; }
+
+canvas { display: block; width: 100% !important; }
